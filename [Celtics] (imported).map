@@ -1,0 +1,14 @@
+<img src="[Celtics] (imported)" width="3200" height="1991" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:Mitchell Noun -->
+<area shape="rect" coords="183,391,539,1077" alt="Robert Williams" target="Audio" href="Williams.mp3" />
+<area shape="rect" coords="684,370,1057,1013" alt="Grant Williams" target="Audio" href="Grant.mp3" />
+<area shape="rect" coords="1265,328,1567,980" alt="Jayson Tatum" target="Audio" href="Tatum.mp3" />
+<area shape="rect" coords="1789,383,2094,984" alt="Jaylen Brown" target="Audio" href="Brown.mp3" />
+<area shape="rect" coords="2727,465,3024,1116" alt="Marcus Smart" target="Audio" href="Smart.mp3" />
+</map>
