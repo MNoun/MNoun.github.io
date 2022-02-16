@@ -3,34 +3,70 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mitchell Noun's Home Page</title>
+    <title>Home Page</title>
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
     <style>
-        #div1 {
-            height: 100%;
-            width: 100%;
-            display: flex;
+        
+        p1.relative {
+            position: relative;
+            top: 20px;
+            left: 50px;
         }
+
+        div2.relative {
+            position: relative;
+            top: 20px;
+            left: 800px;
+        }
+
+        div3.relative {
+            position: relative;
+            top: 20px;
+            left: 850px;
+        }
+
+        div4.relative {
+            position: relative;
+            top: 20px;
+            left: 900px;
+        }
+        
+        div1 {
+            width: 100%;
+            height: 10%;
+            background: rgb(80, 135, 238);
+            position: fixed;
+        }
+
+        a:link, a:visited {
+            color: white;
+        }
+
+        p1 {font-family: Arial, Helvetica, sans-serif; font-size: 24pt; color: white;}
+        div2 {font-family: Arial, Helvetica, sans-serif; font-size: 14pt; color: white;}
+        div3 {font-family: Arial, Helvetica, sans-serif; font-size: 14pt; color: white;}
+        div4 {font-family: Arial, Helvetica, sans-serif; font-size: 14pt; color: white;}
+
     </style>
 </head>
 <body>
-    <p1>
-        <a href="https://mnoun.github.io/index.html"> Home Page</a>
-    </p>
-    <div1 class="relative">
-        <p2>
-            <icon class="far fa-address-card"></icon>
-            <a href="https://mnoun.github.io/aboutMe.html"> About Me</a>
-        </p>
-        <p3>
-            <icon class="far fa-file"></icon>
-            <a href="https://mnoun.github.io/index.html"> Resume</a>
-        </p>
-        <p4>
-            <icon class="fas fa-briefcase"></icon>
-            <a href="https://mnoun.github.io/portfolio.html"> Portfolio</a>
-        </p>
-        </div>
+    <div1 id="rectangle">
+    </div1>
+    <p1 class="relative">
+        <a style="text-decoration:none;" href="https://mnoun.github.io/index.html"> Home Page</a>
+    </p1>
+    <div2 class="relative">
+        <icon class="far fa-address-card"></icon>
+        <a style="text-decoration:none;" href="https://mnoun.github.io/aboutMe.html"> About Me</a>
+    </div2>
+    <div3 class="relative">
+        <icon class="far fa-file"></icon>
+        <a style="text-decoration:none;" href="https://mnoun.github.io/index.html"> Resume</a>
+    </div3>
+    <div4 class="relative">
+        <icon class="fas fa-briefcase"></icon>
+        <a style="text-decoration:none;" href="https://mnoun.github.io/portfolio.html"> Portfolio</a>
+    </div4>
 </body>
 </html>
