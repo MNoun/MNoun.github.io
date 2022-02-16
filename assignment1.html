@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport"
+    content="width=device-width, intial-scale=1">
+    <meta charset="utf-8">
+    <title>Assignment1</title>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <style>
+
+        #background {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        h1 {font-size: 30pt;}
+        h2 {font-size: 24pt;}
+        p {font-size: 18pt;}
+
+        div1.relative {
+            position: relative;
+            top: 300px;
+            left: 300px;
+        }
+        div2.relative {
+            position: relative;
+            left: 850px;
+            bottom: 350px;
+        }
+
+        h1 {font-family: Arial, Helvetica, sans-serif;}
+        h2 {font-family: Arial, Helvetica, sans-serif;}
+        p {font-family: Arial, Helvetica, sans-serif;}
+
+        h1 {color: white;}
+        h2 {color: white;}
+        p {color: white;}
+
+    </style>
+</head>
+<body>
+    
+    <video autoplay muted loop id="background">
+        <source src="background.mp4"
+        type="video/mp4">
+    </video>
+
+    <div1 class="relative">
+    <h1>Mitchell Noun</h1>
+    <h2>Home Page</h2>
+    </div>
+
+    <div2 class="relative">
+    <p>
+        <icon class="far fa-address-card"></icon>
+        About Me
+    </p>
+    <p>
+        <icon class="far fa-file"></icon>
+        Resume
+    </p>
+    <p>
+        <icon class="fas fa-gamepad"></icon>
+        Hobbies
+    </p>
+    <p>
+        <icon class="fas fa-briefcase"></icon>
+        Work
+    </p>
+    </div>
+</body>
+</html>
