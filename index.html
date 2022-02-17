@@ -31,16 +31,39 @@
             top: 20px;
             left: 900px;
         }
-        
+
         div1 {
             width: 100%;
             height: 10%;
-            background: rgb(80, 135, 238);
+            background: rgb(44, 76, 133);
             position: fixed;
+        }
+
+        #background{
+            object-fit: cover;
+            width: 100%;
+            height: 700px;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+            border: none;
+        }
+
+        .container{
+            top: 300px;
+            width: 100%;
+            position: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        div5.relative{
+            text-align: center;
+            color: white;
         }
     }
           
-
         a:link, a:visited {
             color: white;
         }
@@ -70,5 +93,16 @@
         <icon class="fas fa-briefcase"></icon>
         <a style="text-decoration:none;" href="https://mnoun.github.io/portfolio.html"> Portfolio</a>
     </div4>
+
+    <img id="background" src="background.jpg">
+    <main class="container">
+    <div5 class="relative">
+        <h1>Hello, I'm Mitchell Noun</h1>
+        <p> 
+            I am a senior computer science student at Bridgewater State University. <br> 
+            I am currently looking for a job or internship in software development, web development, data science, or cybersecurity.
+        </p>
+    </div5>
+    </main>
 </body>
 </html>
