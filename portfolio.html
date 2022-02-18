@@ -38,12 +38,26 @@
             background: rgb(44, 76, 133);
             position: fixed;
         }
-    }
-          
 
-        a:link, a:visited {
+        .container{
+            width: 100%;
+            top: 100px;
+            position: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #heading{
+            text-align: center;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        #link{
             color: white;
         }
+    }
 
         p1 {font-family: Arial, Helvetica, sans-serif; font-size: 24pt; color: white;}
         div2 {font-family: Arial, Helvetica, sans-serif; font-size: 14pt; color: white;}
@@ -56,19 +70,60 @@
     <div1 id="rectangle">
     </div1>
     <p1 class="relative">
-        <a style="text-decoration:none;" href="https://mnoun.github.io/index.html"> Home Page</a>
+        <a id="link" style="text-decoration:none;" href="https://mnoun.github.io/index.html"> Home Page</a>
     </p1>
     <div2 class="relative">
         <icon class="far fa-address-card"></icon>
-        <a style="text-decoration:none;" href="https://mnoun.github.io/aboutMe.html"> About Me</a>
+        <a id="link" style="text-decoration:none;" href="https://mnoun.github.io/aboutMe.html"> About Me</a>
     </div2>
     <div3 class="relative">
         <icon class="far fa-file"></icon>
-        <a style="text-decoration:none;" href="https://mnoun.github.io/resume.html"> Resume</a>
+        <a id="link" style="text-decoration:none;" href="https://mnoun.github.io/resume.html"> Resume</a>
     </div3>
     <div4 class="relative">
         <icon class="fas fa-briefcase"></icon>
-        <a style="text-decoration:none;" href="https://mnoun.github.io/portfolio.html"> Portfolio</a>
+        <a id="link" style="text-decoration:none;" href="https://mnoun.github.io/portfolio.html"> Portfolio</a>
     </div4>
+
+    <main class="container"> 
+        <div class="row">
+            <div class="row"><h1 id="heading">Portfoilio</h1></div>
+            <div class="col-lg">
+                <h1>Relevant Courses</h1>
+                <p> <i>COMP350</i> Operating Systems</p>
+                <p> <i>COMP442</i> Software Engineering</p>
+                <p> <i>MATH200</i> Statistical Methods</p>
+                <p> <i>COMP340</i> Organization of Programming Languages</p>
+                <p> <i>COMP430</i> Computer Networks</p>
+                <p> <i>COMP399</i> 3D Animation</p>
+                <p> <i>COMP361</i> Introduction to Cybersecurity</p>
+                <p> <i>COMP435</i> Analysis of Algorithms</p>
+                <p> <i>COMP415</i> Emerging Languages - Go</p>
+                <p> <i>COMP335</i> Web Appliccation Development</p>
+                <p> <i>COMP490</i> Senior Design and Development</p>
+            </div>
+            <div class="col-lg">
+                <h1>Relevant Projects</h1>
+                <p id="title" >
+                    <a href="https://github.com/MNoun/MNounIMDBProject"> IMDB Project</a>
+                </p>
+                <p id="description">
+                    <i>Uses the IMDb API to gather show, movie and user ratings data. Inserts data <br>
+                        into a SQL database.
+                    </i>
+                </p>
+                <p id="title" >
+                    <a href="https://github.com/MNoun/UnityMaze"> Maze Project</a>
+                </p>
+                <p id="description">
+                    <i>Implements Kruskal's Algorithm to procedurally generate a maze of tiles in <br>
+                        Unity3D.
+                    </i>
+                </p>
+
+            </div>
+        </div>
+    </main>
+
 </body>
 </html>
